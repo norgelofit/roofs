@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="utf-8">
+	<title>Roofs | Your roof with us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+	<link rel="shortcut icon" href="images/favicon.ico">
+    
+	<!-- CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/flexslider.css" rel="stylesheet" type="text/css" />
+	<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+	<link href="css/animate.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/owl.carousel.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+    
+	<!-- FONTS -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500italic,700,500,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">	
+    
+	<!-- SCRIPTS -->
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if IE]><html class="ie" lang="en"> <![endif]-->
+	
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+	<script src="js/jquery.nicescroll.min.js" type="text/javascript"></script>
+	<script src="js/superfish.min.js" type="text/javascript"></script>
+	<script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
+	<script src="js/owl.carousel.js" type="text/javascript"></script>
+	<script src="js/animate.js" type="text/javascript"></script>
+	<script src="js/jquery.BlackAndWhite.js"></script>
+	<script src="js/myscript.js" type="text/javascript"></script>
+	<script>
+		
+		//PrettyPhoto
+		jQuery(document).ready(function() {
+			$("a[rel^='prettyPhoto']").prettyPhoto();
+		});
+		
+		//BlackAndWhite
+		$(window).load(function(){
+			$('.client_img').BlackAndWhite({
+				hoverEffect : true, // default true
+				// set the path to BnWWorker.js for a superfast implementation
+				webworkerPath : false,
+				// for the images with a fluid width and height 
+				responsive:true,
+				// to invert the hover effect
+				invertHoverEffect: false,
+				// this option works only on the modern browsers ( on IE lower than 9 it remains always 1)
+				intensity:1,
+				speed: { //this property could also be just speed: value for both fadeIn and fadeOut
+					fadeIn: 300, // 200ms for fadeIn animations
+					fadeOut: 300 // 800ms for fadeOut animations
+				},
+				onImageReady:function(img) {
+					// this callback gets executed anytime an image is converted
+				}
+			});
+		});
+		
+	</script>
+	
+</head>
+<body>
+
+<!-- PRELOADER -->
+<img id="preloader" src="images/preloader.gif" alt="" />
+<!-- //PRELOADER -->
+<div class="preloader_hide">
+
+	<!-- PAGE -->
+	<div id="page">
+	
+		<!-- HEADER -->
+		<header>
+			
+			<!-- MENU BLOCK -->
+			<div class="menu_block">
+			
+				<!-- CONTAINER -->
+				<div class="container clearfix">
+					
+					<!-- LOGO -->
+					<div class="logo pull-left">
+						<a href="index.html" ><img src="images/roofers-logo.png" alt="" /></a>
+					</div><!-- //LOGO -->
+					
+					
+					
+					<!-- MENU -->
+					<div class="pull-right">
+						<nav class="navmenu center">
+							<ul>
+								<li class="first active scroll_btn"><a href="#home" >Home</a></li>
+								<li class="scroll_btn"><a href="#about" >About Roofs</a></li>
+								<li class="scroll_btn"><a href="#projects" >Roofs</a></li>
+								
+								<li class="scroll_btn last"><a href="#contacts" >Contacts</a></li>
+								
+									</ul>
+								</li>
+							</ul>
+						</nav>
+					</div><!-- //MENU -->
+				</div><!-- //MENU BLOCK -->
+			</div><!-- //CONTAINER -->
+		</header><!-- //HEADER -->
+		
+		
+		<!-- HOME -->
+		<section id="home" class="padbot0">
+				
+			<!-- TOP SLIDER -->
+			<div class="flexslider top_slider">
+				<ul class="slides">
+					<li class="slide1">
+						<div class="flex_caption1">
+							<p class="title1 captionDelay2 FromTop">BEST ROOF</p>
+							<p class="title2 captionDelay4 FromTop">for</p>
+							<p class="title3 captionDelay6 FromTop">CARPORTS</p>
+							<p class="title4 captionDelay7 FromBottom">Strong Structure & excelent View .</p>
+						</div>
+						<a class="slide_btn FromRight" href="javascript:void(0);" >Read More</a>
+					<li class="slide2">
+						<div class="flex_caption1">
+							<p class="title1 captionDelay6 FromLeft">Design</p>
+							<p class="title2 captionDelay4 FromLeft">Simple </p>
+							<p class="title3 captionDelay2 FromLeft">and elegant</p>
+							<p class="title4 captionDelay7 FromLeft">Our company build all you suggest .</p>
+						</div>
+						<a class="slide_btn FromRight" href="javascript:void(0);" >Read More</a>
+					</li>
+					<li class="slide3">
+						<div class="flex_caption1">
+							<p class="title1 captionDelay1 FromBottom">Amazing</p>
+							<p class="title2 captionDelay2 FromBottom">Carpot </p>
+							<p class="title3 captionDelay3 FromBottom">Isulado</p>
+							<p class="title4 captionDelay5 FromBottom">We complete all works just in time.</p>
+						</div>
+						<a class="slide_btn FromRight" href="javascript:void(0);" >Read More</a>
+						
+						
+					</li>
+				</ul>
+			</div>
+			<div id="carousel">
+				<ul class="slides">
+					<li><img src="images/slider/Carport.jpg" alt="Roof for carpot " /></li>
+					<li><img src="images/slider/Carport-2.jpg" alt="" /></li>
+					<li><img src="images/slider/Carpot-Isulado.jpg" alt="" /></li>
+				</ul>
+			</div><!-- //TOP SLIDER -->
+		</section><!-- //HOME -->
+		
+		
+		<!-- ABOUT -->
+		<section id="about">
+			
+			<!-- SERVICES -->
+			<div class="services_block padbot40" data-appear-top-offset="-200" data-animated="fadeInUp">
+				
+				<!-- CONTAINER -->
+				<div class="container">
+				
+					<!-- ROW -->
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							<a class="services_item" href="javascript:void(0);" >
+								<p><b>Easy</b> Customize</p>
+								<span>Quality and very comfortable design, does not hurt the eyes and pleasant to use.</span>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							<a class="services_item" href="javascript:void(0);" >
+								<p><b>Modern</b> Design</p>
+								<span>Quality and unique design that meets all the requirements.</span>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							<a class="services_item" href="javascript:void(0);" >
+								<p><b>Amazing</b> Design</p>
+								<span>Design that will be equally beautifully for all peoples.</span>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							<a class="services_item" href="javascript:void(0);" >
+								<p><b>Committed </b> after sales support</p>
+								<span>If you any problem, just call to us!!!!.</span>
+							</a>
+						</div>
+					</div><!-- //ROW -->
+				</div><!-- //CONTAINER -->
+			</div><!-- //SERVICES -->
+			
+
+		</section><!-- //ABOUT -->
+		
+		
+		<!-- PROJECTS -->
+		<section id="projects" class="padbot20">
+		
+			<!-- CONTAINER -->
+			<div class="container">
+				<h2><b>Featured</b> Works</h2>
+			</div><!-- //CONTAINER -->
+			
+				
+			<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
+				<!-- PROJECTS SLIDER -->
+				<div class="owl-demo owl-carousel projects_slider">
+					
+					<!-- work1 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img">
+								<img src="images/works/1.jpg" alt="" />
+								<a class="zoom" href="images/works/1.jpg" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+							<div class="work_description">
+								<div class="work_descr_cont">
+									<a href="#" >ALUMINUM patio ROOf. </a>
+									<span>Isulado</span>
+								</div>
+							</div>
+						</div>
+					</div><!-- //work1 -->
+					
+					<!-- work2 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img">
+								<img src="images/works/2.jpg" alt="" />
+								<a class="zoom" href="images/works/2.jpg" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+							<div class="work_description">
+								<div class="work_descr_cont">
+									<a href="#" >Carport. </a>
+									<span>Techo con paneles regulares</span>
+								</div>
+							</div>
+						</div>
+					</div><!-- //work2 -->
+					
+					<!-- work3 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img">
+								<img src="images/works/3.jpg" alt="" />
+								<a class="zoom" href="images/works/3.jpg" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+							<div class="work_description">
+								<div class="work_descr_cont">
+									<a href="#" >Enclosures</a>
+									<span>ROOF</span>
+								</div>
+							</div>
+						</div>
+					</div><!-- //work3 -->
+					
+					<!-- work4 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img">
+								<img src="images/works/4.jpg" alt="" />
+								<a class="zoom" href="images/works/4.jpg" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+							<div class="work_description">
+								<div class="work_descr_cont">
+									<a href="#" >Isulado</a>
+									<span>Patio roof. </span>
+								</div>
+							</div>
+						</div>
+					</div><!-- //work4 -->
+					
+					<!-- work5 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img">
+								<img src="images/works/5.jpg" alt="" />
+								<a class="zoom" href="images/works/5.jpg" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+							<div class="work_description">
+								<div class="work_descr_cont">
+									<a href="#" >Patio roof.</a>
+									<span> Regular 2
+									</span>
+								</div>
+							</div>
+						</div>
+					</div><!-- //work5 -->
+					
+					<!-- work6 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img">
+								<img src="images/works/6.jpg" alt="" />
+								<a class="zoom" href="images/works/6.jpg" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+							<div class="work_description">
+								<div class="work_descr_cont">
+									<a href="#" >Patio roof.</a>
+									<span> Regular</span>
+								</div>
+							</div>
+						</div>
+					</div><!-- //work6 -->
+					
+					<!-- work7 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img">
+								<img src="images/works/7.jpg" alt="" />
+								<a class="zoom" href="images/works/7.jpg" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+							<div class="work_description">
+								<div class="work_descr_cont">
+									<a href="#" >Screen 2</a>
+									<span>ROOF</span>
+								</div>
+							</div>
+						</div>
+					</div><!-- //work7 -->
+										<!-- work8 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img">
+								<img src="images/works/8.jpg" alt="" />
+								<a class="zoom" href="images/works/8.jpg" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+							<div class="work_description">
+								<div class="work_descr_cont">
+									<a href="#" >Screen</a>
+									<span>ROOF</span>
+								</div>
+							</div>
+						</div>
+					</div><!-- //work7 -->
+				</div><!-- //PROJECTS SLIDER -->
+			</div>
+			
+			
+
+		</section><!-- //PROJECTS -->
+		
+	
+	<!-- CONTACTS -->
+	<section id="contacts">
+	</section><!-- //CONTACTS -->
+	
+	<!-- FOOTER -->
+	<footer>
+			
+		<!-- CONTAINER -->
+		<div class="container">
+			
+			<!-- ROW -->
+			<div class="row" data-appear-top-offset="-200" data-animated="fadeInUp">
+				
+				<div class="col-lg-4 col-md-4 col-sm-6 padbot30">
+					<h4><b>Send </b> Email</h4>
+					<div class="recent_posts_small clearfix">
+						<div class="post_item_img_small">
+							<img src="images/icons8-email-64.png" alt="" />
+						</div>
+						<div class="post_item_content_small">
+							<a class="title" href="mailto:justicopineiro209@gmail.com" >justicopineiro209@gmail.con</a>
+							<ul class="post_item_inf_small">
+								<li>Do it now!!!</li>
+							</ul>
+						</div>
+						
+					</div>
+					<h4><b>Let's </b> Chat</h4>
+					<div class="recent_posts_small clearfix">
+						<div class="post_item_img_small">
+							<img src="images/icons8-whatsapp-50.png" alt="" />
+						</div>
+						<div class="post_item_content_small">
+							<a class="title" href="https://wa.me/17863437179" >WHATSAPP</a>
+							<ul class="post_item_inf_small">
+								<li>Do it now!!!</li>
+							</ul>
+						</div>
+						
+					</div>
+					
+				</div>
+				
+				
+				
+				<div class="respond_clear"></div>
+				
+				<div class="col-lg-4 col-md-4 padbot30">
+					<h4><b>Contacts</b> Us</h4>
+					
+					<!-- CONTACT FORM -->
+					<div class="span9 contact_form">
+						<div id="note"></div>
+						<div id="fields">
+							<form id="contact-form-face" class="clearfix" action="#">
+								<input type="text" name="name" value="Name" onFocus="if (this.value == 'Name') this.value = '';" onBlur="if (this.value == '') this.value = 'Name';" />
+								<textarea name="message" onFocus="if (this.value == 'Message') this.value = '';" onBlur="if (this.value == '') this.value = 'Message';">Message</textarea>
+								<input class="contact_btn" type="submit" value="Send message" />
+							</form>
+						</div>
+					</div><!-- //CONTACT FORM -->
+				</div>
+			</div>	
+			</div><!-- //ROW -->
+		</div><!-- //CONTAINER -->
+	</footer><!-- //FOOTER -->
+	
+	
+	
+
+</div>
+</body>
+</html>
